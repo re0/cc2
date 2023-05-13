@@ -13,9 +13,8 @@ jobs:
     environment:
       # Customize the v2board environment here
       # Customize the argo environment here
-      ARGO_DOMAIN: circleci.fing.eu.org
-      ARGO_TOKEN: eyJh0IjoiNTVmN2QyM2YtODljMS00YzY4LWIwOWItOTYyYjVhZmJlOGUwIiwicyI6Ik5XVmtNMlEzWWpBdE5qZGtaQzAwWTJRekxXSXpNVE10TnpabVlUaGxORFl4TnpjdyJ9
-      TUNNEL_TOKEN: eyJhIjoiNTBlNzk2OTNmNmU1YjJiZmZlOTZlODQ0NTVjZmMyNGMiLCJ0IjoiNTVmN2QyM2YtODljMS00YzY4LWIwOWItOTYyYjVhZmJlOGUwIiwicyI6Ik5XVmtNMlEzWWpBdE5qZGtaQzAwWTJRekxXSXpNVE10TnpabVlUaGxORFl4TnpjdyJ9
+      ARGO_DOMAIN: ci.ging.eu.org
+      TUNNEL_TOKEN: eyJhIjoiNTBlNzk2OTNmNmU1YjJiZmZlOTZlODQ0NTVjZmMyNGMiLCJ0IjoiMzFhNjBlZTMtY2EwOS00MWZlLTkxODQtZTI5NGJiODI1MWE4IiwicyI6Ik1HVXlORGxsWm1VdE5qWTVNUzAwT0RoaUxUa3haRGd0TmpZMllUUmpPVEV4TnpVMSJ9
       TUNNEL_TRANSPORT_PROTOCOL: http2
       # Customize the nezha environment here
     # Add steps to the job
